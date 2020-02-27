@@ -3,7 +3,7 @@
 **Zk是一个提供分布式协同服务的应用.例如集群服务器的数据的一致性、参数配置的一致性**
 
 
-![markdown](https://colobu.com/images/logos/zookeeper.png "zoo")
+(https://colobu.com/images/logos/zookeeper.png "zoo")
 
 
 ## 运行原理:
