@@ -5,6 +5,8 @@
 
 ![image](https://colobu.com/images/logos/zookeeper.png)
 
+## 应用场景
+zk最适于读多写少且轻量级数据（默认设置下单个dataNode限制为1MB大小,可通过Java的环境变量来设置）的应用场景
 
 ## 运行原理:
 zk通过创建znode节点,当客户端连接节点时,节点会分配会话ID并向客户端发确认函. 当客户端请求数据变化时. 会产生一个watcher监听事件(监听事件是用来处理当数据发生变化时处理回调方法).
